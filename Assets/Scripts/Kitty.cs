@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 
 public class Kitty : MonoBehaviour {
-	
+
+	public float maxTime = 5f;
 	public float timeLeft = 5f; //timer of the round
 	public int points = 0; //points user got
 
